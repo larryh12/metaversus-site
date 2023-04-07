@@ -13,7 +13,12 @@ const Footer = () => (
     whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
-    footer
+    {/* gradient layer */}
+    <div className="footer-gradient" />
+    {/* overall footer text wrapper */}
+    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
+      footer
+    </div>
   </motion.footer>
 );
 
