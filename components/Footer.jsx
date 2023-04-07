@@ -36,6 +36,12 @@ const Footer = () => (
           </span>
         </button>
       </div>
+
+      {/* footer bottom text wrapper */}
+      <div className="flex flex-col">
+        {/* divider line */}
+        <div className="mb-[50px] h-[2px] bg-white opacity-10" />
+      </div>
     </div>
   </motion.footer>
 );
