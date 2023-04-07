@@ -33,7 +33,7 @@ const GetStarted = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| How Metaversus Works" />
+        <TypingText title="| How MetaverSUS Works" />
         <TitleText title="Get started with just a few clicks" />
 
         {/* step wrapper div */}

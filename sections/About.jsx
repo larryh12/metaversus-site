@@ -17,7 +17,7 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
+      <TypingText title="| About MetaverSUS" textStyles="text-center" />
 
       {/* the about text motion p wrapper */}
       <motion.p
