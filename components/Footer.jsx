@@ -6,6 +6,15 @@ import { socials } from '../constants';
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
 
-const Footer = () => <footer>footer</footer>;
+const Footer = () => (
+  <motion.footer
+    variants={footerVariants}
+    initial="hidden"
+    whileInView="show"
+    className={`${styles.xPaddings} py-8 relative`}
+  >
+    footer
+  </motion.footer>
+);
 
 export default Footer;
