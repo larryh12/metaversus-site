@@ -17,7 +17,9 @@ const Insights = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      insight
+      {/* text text text */}
+      <TypingText title="| Insights" textStyles="text-center" />
+      <TitleText title="Insights about metaverse" textStyles="text-center" />
     </motion.div>
   </section>
 );
