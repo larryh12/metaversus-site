@@ -20,6 +20,13 @@ const Insights = () => (
       {/* text text text */}
       <TypingText title="| Insights" textStyles="text-center" />
       <TitleText title="Insights about metaverse" textStyles="text-center" />
+
+      {/* insight card wrapper */}
+      <div className="mt-[50px] flex flex-col gap-[30px]">
+        {insights.map((item, index) => (
+          <InsightCard key={`insight-${index}`} {...item} index={index + 1} />
+        ))}
+      </div>
     </motion.div>
   </section>
 );
