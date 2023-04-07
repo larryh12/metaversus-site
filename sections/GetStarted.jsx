@@ -15,7 +15,19 @@ const GetStarted = () => (
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
-    ></motion.div>
+    >
+      {/* planet div */}
+      <motion.div
+        variants={planetVariants('left')}
+        className={`flex-1 ${styles.flexCenter}`}
+      >
+        <img
+          src="get-started.png"
+          alt="get-started"
+          className="w-[90%] h-[90%] object-contain"
+        />
+      </motion.div>
+    </motion.div>
   </section>
 );
 
