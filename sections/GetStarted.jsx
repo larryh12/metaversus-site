@@ -27,6 +27,15 @@ const GetStarted = () => (
           className="w-[90%] h-[90%] object-contain"
         />
       </motion.div>
+
+      {/* get started text div */}
+      <motion.div
+        variants={fadeIn('left', 'tween', 0.2, 1)}
+        className="flex-[0.75] flex justify-center flex-col"
+      >
+        <TypingText title="| How Metaversus Works" />
+        <TitleText title="Get started with just a few clicks" />
+      </motion.div>
     </motion.div>
   </section>
 );
