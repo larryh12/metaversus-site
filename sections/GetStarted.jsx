@@ -35,6 +35,18 @@ const GetStarted = () => (
       >
         <TypingText title="| How Metaversus Works" />
         <TitleText title="Get started with just a few clicks" />
+
+        {/* step wrapper div */}
+        <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
+          {startingFeatures.map((feature, index) => (
+            <StartSteps
+              key={feature}
+              // add the fancy 01, 02, etc. number padding
+              number={(index + 1).toString().padStart(2, '0')}
+              text={feature}
+            />
+          ))}
+        </div>
       </motion.div>
     </motion.div>
   </section>

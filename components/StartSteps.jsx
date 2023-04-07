@@ -1,7 +1,3 @@
-const StartSteps = () => (
-  <div>
-    start steps
-  </div>
-);
+const StartSteps = () => <div>start steps</div>;
 
 export default StartSteps;
