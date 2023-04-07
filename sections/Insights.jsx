@@ -6,6 +6,20 @@ import styles from '../styles';
 import { insights } from '../constants';
 import { staggerContainer } from '../utils/motion';
 import { InsightCard, TitleText, TypingText } from '../components';
-const Insights = () => <section>Insights section</section>;
+
+const Insights = () => (
+  <section className={`${styles.paddings} relative z-10`}>
+    {/* section motion wrapper */}
+    <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={`${styles.innerWidth} mx-auto flex flex-col`}
+    >
+      insight
+    </motion.div>
+  </section>
+);
 
 export default Insights;
