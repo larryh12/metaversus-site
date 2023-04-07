@@ -19,6 +19,8 @@ const Explore = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <TypingText title="| The World" textStyles="text-center" />
+      <TitleText title="Choose the world you want" textStyles="text-center" />
+      <TitleText title="to explore" textStyles="text-center" />
     </motion.div>
   </section>
 );
