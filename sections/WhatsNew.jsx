@@ -24,6 +24,13 @@ const WhatsNew = () => (
       >
         <TypingText title="| Whats new?" />
         <TitleText title="What's new about MetaverSUS?" />
+
+        {/* new features wrapper div */}
+        <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
+          {newFeatures.map((feature) => (
+            <NewFeatures key={feature.title} {...feature} />
+          ))}
+        </div>
       </motion.div>
     </motion.div>
   </section>
