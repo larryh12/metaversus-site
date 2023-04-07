@@ -8,6 +8,17 @@ import { exploreWorlds } from '../constants';
 import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
 
-const Explore = () => <section>Explore section</section>;
+const Explore = () => (
+  <section className={`${styles.paddings}`} id="explore">
+    {/* motion wrapper div */}
+    <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={`${styles.innerWidth} mx-auto flex flex-col`}
+    ></motion.div>
+  </section>
+);
 
 export default Explore;
