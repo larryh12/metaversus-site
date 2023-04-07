@@ -6,6 +6,19 @@ import styles from '../styles';
 import { TitleText, TypingText } from '../components';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
-const World = () => <section>World section</section>;
+const World = () => (
+  <section className={`${styles.paddings} relative z-10`}>
+    {/* motion wrapper */}
+    <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={`${styles.innerWidth} mx-auto flex flex-col`}
+    >
+      world
+    </motion.div>
+  </section>
+);
 
 export default World;
