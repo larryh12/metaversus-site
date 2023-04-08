@@ -9,9 +9,13 @@ A re-creation of a modern front-end web design with the theme of Metaverse, buil
 
 See it live [here](https://metaversus-site-larryh12.vercel.app/).
 
+<img src='docs/thumbnail.png'>
+
 ## Design Breakdown
 
 ### Hero Section
+
+<img src='docs/hero.png'>
 
 #### General Motion Wrapper
 
@@ -166,6 +170,8 @@ There is also a stamp button that will take us to the `Explore` section when cli
 
 ### About Section
 
+<img src='docs/about.png'>
+
 The `About` section starts with a `staggerContainer` motion wrapper. The layout is fairly simple, we can see a small title with a fading-in animation, the text content, and an arrow.
 
 #### Gradient Layer
@@ -228,6 +234,8 @@ Notice we use the `fadeIn` animation to make text content and the arrow appearin
 We also set the arrow delay to be `0.1` second later than the paragraph to make it appear slightly later.
 
 ### Explore Section
+
+<img src='docs/explore.png'>
 
 The `Explore` section starts with a `staggerContainer` motion wrapper. The layout starts with a `TypingText` section title, a heading title, and a series of 5 `ExploreCard` components for the 5 metaverse worlds.
 
@@ -332,6 +340,8 @@ From now on, the rest of the design is becoming more straightforward as we will 
 
 ### Get Started Section
 
+<img src='docs/get-started.png'>
+
 The `GetStarted` section starts with a `staggerContainer` motion wrapper. The layout consists of a planet "flying" in from the left and a text content wrapper sliding in from the right.
 
 #### Planet Rolling is Cool
@@ -398,7 +408,7 @@ Next, we have a wrapper `div` for the steps comp. Similarly to the way we render
 
 ##### The StartSteps component
 
-This is a pretty straight forward comp as we only need to pass in the step number and the text content to render. The step number has a rounded background and that's about it. Here's the structure.
+This is a pretty straight forward comp as we only need to pass in the step number and the text node to render. The step number has a rounded background and that's about it. Here's the structure.
 
 ```jsx
 const StartSteps = ({ number, text }) => (
@@ -412,6 +422,8 @@ const StartSteps = ({ number, text }) => (
 ```
 
 ### What's New Section
+
+<img src='docs/whats-new.png'>
 
 This section is largely similar to the [Get Started](#get-started-section) section so I won't be going into details of animation, styling, and children components. Here is the general structure of this section.
 
@@ -440,6 +452,8 @@ This section is largely similar to the [Get Started](#get-started-section) secti
 
 ### The World Map Section
 
+<img src='docs/world-map.png'>
+
 As this is a relatively simple section, here is the general structure.
 
 ```jsx
@@ -461,6 +475,8 @@ As this is a relatively simple section, here is the general structure.
 ```
 
 ### The Insights Section
+
+<img src='docs/insights.png'>
 
 Again, this section follows a very similar structure to the ones above, so I will not be going over them again. Instead, we will be looking at the `InsightCard` component to render the news items.
 
@@ -494,9 +510,11 @@ And finally, we have a `rounded-full div` to wrap around an `arrow.svg` to creat
 
 ### The Feedback and Footer
 
+<img src='docs/footer.png'>
+
 #### Feedback Section
 
-Here is the general structure for the feedback section. Again, it is fairly simple as well. We start with a `staggerContainer` wrapper, then a feedback card wrapper with several text content inside, finally a planet image with a stamp svg.
+Here is the general structure for the feedback section. Again, it is fairly simple as well. We start with a `staggerContainer` wrapper, then a feedback card wrapper with several text nodes inside, finally a planet image with a stamp svg.
 
 ```jsx
 <motion.div variants={staggerContainer}>
