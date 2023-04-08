@@ -594,3 +594,12 @@ And finally, we have the bottom section, where we have the website name / logo, 
   </div>
 </div>
 ```
+
+<details>
+<summary>Credits</summary>
+
+[@adrianhajdin](https://github.com/adrianhajdin) | [Youtube](https://www.youtube.com/watch?v=ugCN_gynFYw)
+
+[One Week Wonders Design](https://www.oneweekwonders.com/) | [Dribble](https://dribbble.com/shots/17625867-Metaversus-Metaverse-Landing-Page) | [Figma](https://www.figma.com/file/EyzNoOFak1Nb1bBx9ZKI7E)
+
+</details>
