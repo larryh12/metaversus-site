@@ -1,4 +1,6 @@
-# MetaverSUS
+# METAVERSUS
+
+<img src='docs/thumbnail.jpg'>
 
 A re-creation of a modern front-end web design with the theme of Metaverse, built with:
 
@@ -7,9 +9,7 @@ A re-creation of a modern front-end web design with the theme of Metaverse, buil
 - [Framer Motion](https://www.framer.com/motion/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-See it live [here](https://metaversus-site-larryh12.vercel.app/).
-
-<img src='docs/thumbnail.png'>
+**See it [LIVE](https://metaversus-site-larryh12.vercel.app/)** 👈
 
 ## Design Breakdown
 
