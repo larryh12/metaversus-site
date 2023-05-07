@@ -2,9 +2,9 @@
 
 <img src='docs/thumbnail.jpg'>
 
-A re-creation of a modern front-end web design with the theme of Metaverse, built with:
+A re-creation of a modern front-end UI/UX web design with the theme of the Metaverse, built with:
 
-- [Next.js 13](https://nextjs.org/docs)
+- [Next.js](https://nextjs.org/docs)
 - [React](https://reactjs.org/docs/getting-started.html)
 - [Framer Motion](https://www.framer.com/motion/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -598,8 +598,7 @@ And finally, we have the bottom section, where we have the website name / logo, 
 <details>
 <summary>Credits</summary>
 
-[@adrianhajdin](https://github.com/adrianhajdin) | [Youtube](https://www.youtube.com/watch?v=ugCN_gynFYw)
-
-[One Week Wonders Design](https://www.oneweekwonders.com/) | [Dribble](https://dribbble.com/shots/17625867-Metaversus-Metaverse-Landing-Page) | [Figma](https://www.figma.com/file/EyzNoOFak1Nb1bBx9ZKI7E)
+[@adrianhajdin GitHub Repo](https://github.com/adrianhajdin/project_metaverse) |
+[One Week Wonders Figma Design](https://www.figma.com/file/EyzNoOFak1Nb1bBx9ZKI7E)
 
 </details>
