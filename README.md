@@ -1,6 +1,6 @@
 # METAVERSUS
 
-<img src='docs/thumbnail.jpg'>
+<img src='docs/thumbnail.png'>
 
 A re-creation of a modern front-end UI/UX web design with the theme of the Metaverse, built with:
 
