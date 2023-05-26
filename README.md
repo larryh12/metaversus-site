@@ -2,14 +2,14 @@
 
 <img src='docs/thumbnail.png'>
 
-A re-creation of a modern front-end UI/UX web design with the theme of the Metaverse, built with:
+A re-creation of a modern front-end web design with the theme of the Metaverse, built with:
 
 - [Next.js](https://nextjs.org/docs)
 - [React](https://reactjs.org/docs/getting-started.html)
-- [Framer Motion](https://www.framer.com/motion/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
 
-**See it [LIVE](https://metaversus-site-larryh12.vercel.app/)** 👈
+**See it [LIVE](https://metaversus-larryh12.vercel.app/)** 👈
 
 ## Design Breakdown
 
