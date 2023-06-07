@@ -4,7 +4,7 @@
 
 ---
 
-## Built with:
+I learned to build a modern UI/UX website with:
 
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
