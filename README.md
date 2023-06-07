@@ -1,15 +1,15 @@
 # METAVERSUS
 
-<img src='docs/thumbnail.png'>
+![og](docs/_og.png)
 
-A re-creation of a modern front-end web design with the theme of the Metaverse, built with:
+---
 
-- [Next.js](https://nextjs.org/docs)
-- [React](https://reactjs.org/docs/getting-started.html)
+## Built with:
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
-
-**See it [LIVE](https://metaversus-larryh12.vercel.app/)** 👈
 
 ## Design Breakdown
 
@@ -595,10 +595,15 @@ And finally, we have the bottom section, where we have the website name / logo, 
 </div>
 ```
 
+<br/>
+
+---
+
 <details>
 <summary>Credits</summary>
 
-[@adrianhajdin GitHub Repo](https://github.com/adrianhajdin/project_metaverse) |
-[One Week Wonders Figma Design](https://www.figma.com/file/EyzNoOFak1Nb1bBx9ZKI7E)
+- [JS Mastery YouTube video](https://www.youtube.com/watch?v=ugCN_gynFYw)
+- [@adrianhajdin GitHub source](https://github.com/adrianhajdin/project_metaverse)
+- [One Week Wonders Figma design](https://www.figma.com/file/EyzNoOFak1Nb1bBx9ZKI7E)
 
 </details>
